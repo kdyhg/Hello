@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cinema-black: #050505;
+  --color-cinema-gold: #F5C518;
+}
+
+.cinema-shadow-glow {
+  box-shadow: 0 0 50px -10px rgba(245, 197, 24, 0.25);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card-active {
+  background: rgba(245, 197, 24, 0.08);
+  border-color: rgba(245, 197, 24, 0.3);
+}
+
+.glass-card-hover:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.rank-number {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
